@@ -4,16 +4,17 @@ function challengeBanner(num){
     }
 
 
+
 challengeBanner(2)
+print(6)
 function print(num){
     num = 1;
         while(num <= 5){
             console.log(num)
                 num = num + 1;
     }
-
 }
-print(6)
+// print(6)
 
 challengeBanner(3)
 function firstTilLast(num, num2){
@@ -23,7 +24,7 @@ function firstTilLast(num, num2){
     }
 
 }
-firstTilLast(3,7)
+// firstTilLast(3,7)
 
 
 challengeBanner(4)
@@ -99,13 +100,13 @@ printHello(7)
 
 challengeBanner(10)
 function printStr(str){;
-    str = 1
-        while(str <= 7){
-            console.log(str + '. My String')
-                str = str + 1
+    num = 1
+        while(num <= 7){
+            console.log(str)
+                num = num + 1
     }
 }
-printStr(7)
+printStr("boom")
 
 
 challengeBanner(11)
