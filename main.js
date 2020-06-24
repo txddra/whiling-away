@@ -4,8 +4,7 @@ function challengeBanner(num){
     }
 
 
-    challengeBanner(2)
-
+challengeBanner(2)
 function print(num){
   num = 1;
     while(num <= 5){
@@ -26,6 +25,7 @@ function firstTilLast(num, num2){
  }
 firstTilLast(3,7)
 
+
 challengeBanner(4)
 function evenOrOdd(x){
     let num = 1;
@@ -41,16 +41,34 @@ function evenOrOdd(x){
 
  evenOrOdd(5)
 
-challengeBanner(5)
 
+challengeBanner(5)
 function evenOnly(num){
     let num2 = 1;
         while (num2 <= num){  
     if(num2 % 2 === 0){
         console.log(num2);
-    }
-     num2 = num2 + 1;
+ }
+    num2 = num2 + 1;
 
 }
 }
 evenOnly(11)
+
+challengeBanner(6)
+function descending(){
+ num = 10;
+    while (num >=1 ){
+console.log(num)
+num = num - 1;  
+} 
+}
+descending()
+
+
+challengeBanner(7)
+function blastOff(){
+descending() + console.log("Blast Off!")
+}
+
+blastOff()
