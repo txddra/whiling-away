@@ -72,3 +72,14 @@ descending() + console.log("Blast Off!")
 }
 
 blastOff()
+
+challengeBanner(8)
+function byThrees(n){
+    
+    
+        while (n >= 1) {
+        console.log(n);
+        n = n- 3;
+        }
+}
+byThrees(20)
