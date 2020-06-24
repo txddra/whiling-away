@@ -124,7 +124,7 @@ repeatX('Get out!',4)
 challengeBanner(12)
 function individually(str){
     let i = 0;
-    while(i < str.length){
+        while(i < str.length){
 console.log(str[i]);
         i = i + 1;
     }
@@ -132,3 +132,15 @@ console.log(str[i]);
 
 individually("think")
 
+challengeBanner(13)
+function everyOther(str){
+    let i = 0;
+    while(i < str.length){
+        if(i % 2 === 1){
+console.log(str[i])
+        }
+i = i + 1
+    }
+}
+
+everyOther('nobody')
