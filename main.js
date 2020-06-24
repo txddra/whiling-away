@@ -40,3 +40,17 @@ function evenOrOdd(x){
     }
 
  evenOrOdd(5)
+
+challengeBanner(5)
+
+function evenOnly(num){
+    let num2 = 1;
+        while (num2 <= num){  
+    if(num2 % 2 === 0){
+        console.log(num2);
+    }
+     num2 = num2 + 1;
+
+}
+}
+evenOnly(11)
