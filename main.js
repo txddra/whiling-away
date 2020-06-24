@@ -119,3 +119,16 @@ challengeBanner(11)
 
 repeatX('Goodbye...',4)
 repeatX('Get out!',4)
+
+
+challengeBanner(12)
+function individually(str){
+    let i = 0;
+    while(i < str.length){
+console.log(str[i]);
+        i = i + 1;
+    }
+}
+
+individually("think")
+
