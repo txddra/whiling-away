@@ -25,3 +25,18 @@ function firstTilLast(num, num2){
 }
  }
 firstTilLast(3,7)
+
+challengeBanner(4)
+function evenOrOdd(x){
+    let num = 1;
+    while(num <= x ){
+    console.log(num);
+    num = num + 1;
+    if(num % 2 === 0){
+    console.log('Even');
+    }else{ console.log('Odd') 
+ }
+   }
+    }
+
+ evenOrOdd(5)
