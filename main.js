@@ -105,3 +105,17 @@ function printStr(str){;
     }
 }
 printStr(7)
+
+
+challengeBanner(11)
+    function repeatX(str, numb){
+        let num = 1;
+        while (num <= numb){
+    console.log(str);
+    num = num + 1 
+        }
+    
+}
+
+repeatX('Goodbye...',4)
+repeatX('Get out!',4)
