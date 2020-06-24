@@ -157,3 +157,27 @@ function backwards(str){
 }
 }
 backwards("Mesuara")
+
+challengeBanner(15)
+function fizzbuzz(n){
+    num = 1
+    while (num <= n) {
+        if (num % 15 === 0) {
+            console.log('FizzBizz') 
+            num = num + 1
+        }
+        else if (num % 3 === 0) {
+            console.log('Fizz') 
+            num = num + 1
+        }
+        else if (num % 5 === 0) {
+            console.log('Buzz') 
+            num = num + 1
+        } else {
+            console.log(num) 
+            num = num + 1
+        }    
+    }  
+}
+fizzbuzz(15)
+
