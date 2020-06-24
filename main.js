@@ -94,3 +94,14 @@ function printHello(num){
 }
 
 printHello(7)
+
+
+challengeBanner(10)
+function printStr(str){;
+    str = 1
+    while(str <= 7){
+        console.log(str + '. My String')
+        str = str + 1
+    }
+}
+printStr(7)
