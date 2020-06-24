@@ -120,7 +120,7 @@ function repeatX(str, numb){
 }
 
 repeatX('Goodbye...',4)
-repeatX('Get out!',4)
+repeatX('Get out!',6)
 
 
 challengeBanner(12)
