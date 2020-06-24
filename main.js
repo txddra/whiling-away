@@ -75,11 +75,22 @@ blastOff()
 
 challengeBanner(8)
 function byThrees(n){
-    
-    
-        while (n >= 1) {
+    while (n >= 1) {
         console.log(n);
-        n = n- 3;
-        }
+           n = n- 3;
+     }
 }
 byThrees(20)
+
+
+//String challenges
+challengeBanner(9)
+function printHello(num){
+    num = 1;
+      while (num <= 7){
+        console.log(num + '. Hello!');
+        num = num + 1;
+}
+}
+
+printHello(7)
